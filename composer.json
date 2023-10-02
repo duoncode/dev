@@ -10,5 +10,10 @@
         "psr-4": {
             "Conia\\Development\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "ebene fünf GmbH"
+        }
+    ]
 }
