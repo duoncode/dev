@@ -7,7 +7,7 @@ Conia Development Settings
 
 ## Usage
 
-## php-cs-fixer
+### php-cs-fixer
 
 Add the following to your `.php-cs-fixer.dist.php`:
 
