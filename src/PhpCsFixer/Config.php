@@ -46,10 +46,12 @@ class Config extends \PhpCsFixer\Config
             'no_useless_return' => true,
             'no_superfluous_elseif' => true,
             'no_whitespace_before_comma_in_array' => true,
+            'ordered_imports' => ['imports_order' => ['class', 'function', 'const'], 'sort_algorithm' => 'alpha'],
             'phpdoc_to_comment' => false,
             'semicolon_after_instruction' => false,
             'trailing_comma_in_multiline' => true,
             'types_spaces' => ['space' => 'none', 'space_multiple_catch' => 'single'],
-            'yoda_style' => false,];
+            'yoda_style' => false,
+        ];
     }
 }
