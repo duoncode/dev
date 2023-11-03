@@ -15,5 +15,8 @@
         {
             "name": "ebene fünf GmbH"
         }
+    ],
+    "bin": [
+        "bin/docs-test-runner"
     ]
 }
