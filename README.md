@@ -1,11 +1,15 @@
-Conia Development Settings
-==========================
+Conia Development Settings and Tools
+====================================
 
 ## Installation 
 
     composer require conia/development
 
 ## Usage
+
+### Documentation snippets test runner
+
+    ./vendor/bin/docs-test-runner path/to/docs/snippets
 
 ### php-cs-fixer
 
