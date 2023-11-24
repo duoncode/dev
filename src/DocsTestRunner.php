@@ -7,7 +7,7 @@ namespace Conia\Development;
 class DocsTestRunner
 {
     protected readonly string $title;
-    private readonly string $dir;
+    private readonly string|bool $dir;
 
     public function __construct(array $args)
     {
