@@ -1,6 +1,6 @@
 {
-    "name": "conia/development",
-    "description": "Shared development settings and tools for all conia projects",
+    "name": "vacantplanet/development",
+    "description": "Shared development settings and tools for all VacantPlanet projects",
     "type": "library",
     "require": {
         "friendsofphp/php-cs-fixer": "~3.34.0"
@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Conia\\Development\\": "src/"
+            "VacantPlanet\\Development\\": "src/"
         }
     },
     "authors": [

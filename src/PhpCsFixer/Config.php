@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Conia\Development\PhpCsFixer;
+namespace VacantPlanet\Development\PhpCsFixer;
 
 class Config extends \PhpCsFixer\Config
 {
     public function __construct()
     {
-        parent::__construct('Conia');
+        parent::__construct('VacantPlanet');
 
         $this->setRiskyAllowed(true);
     }

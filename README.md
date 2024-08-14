@@ -1,9 +1,8 @@
-Conia Development Settings and Tools
-====================================
+# VacantPlanet Development Settings and Tools
 
 ## Installation 
 
-    composer require conia/development
+    composer require vacantplanet/development
 
 ## Usage
 
@@ -21,7 +20,7 @@ Add the following to your `.php-cs-fixer.dist.php`:
 declare(strict_types=1);
 
 $finder = PhpCsFixer\Finder::create()->in([__DIR__ . '/src', __DIR__ . '/tests']);
-$config = new Conia\Development\PhpCsFixer\Config();
+$config = new VacantPlanet\Development\PhpCsFixer\Config();
 
 return $config->setFinder($finder);
 ```
