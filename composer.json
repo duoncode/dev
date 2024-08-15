@@ -3,7 +3,7 @@
     "description": "Shared development settings and tools for all VacantPlanet projects",
     "type": "library",
     "require": {
-        "friendsofphp/php-cs-fixer": "~3.34.0"
+        "friendsofphp/php-cs-fixer": "~3.62.0"
     },
     "license": "MIT",
     "autoload": {
