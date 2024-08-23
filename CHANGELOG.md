@@ -3,8 +3,22 @@ Changelog
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.4] - 2024-08-24
+
+### Changed
+
+- Add `curly_brace_block` to php-cs-fixers `no_extra_blank_lines` rule
+
+## [1.0.3] - 2024-08-15
+
+### Changed
+
+- Base fixer rules on PER-CS2.0
+- Use tabs instead of spaces
+- Change namespace to VacantPlanet
 
 ## [1.0.2] - 2023-10-23
 
@@ -25,7 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - `no_superfluous_elseif` enabled.
     - `method_chaining_indentation` enabled.
     - `explicit_string_variable` enabled.
-    - Update `class_attributes_separation` settings: No line between `const` declaration, one line between methods.
+    - Update `class_attributes_separation` settings: No line between `const`
+      declaration, one line between methods.
 
 ## [1.0.0] - 2023-10-02
 
