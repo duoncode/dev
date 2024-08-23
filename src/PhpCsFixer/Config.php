@@ -32,7 +32,7 @@ class Config extends \PhpCsFixer\Config
 			'method_chaining_indentation' => true,
 			'multiline_whitespace_before_semicolons' => ['strategy' => 'no_multi_line'],
 			'no_alternative_syntax' => ['fix_non_monolithic_code' => false],
-			'no_extra_blank_lines' => ['tokens' => ['extra', 'use']],
+			'no_extra_blank_lines' => ['tokens' => ['extra', 'use', 'curly_brace_block']],
 			'no_useless_else' => true,
 			'no_useless_return' => true,
 			'no_superfluous_elseif' => true,
