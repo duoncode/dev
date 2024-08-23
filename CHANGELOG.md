@@ -18,7 +18,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Base fixer rules on PER-CS2.0
 - Use tabs instead of spaces
+
+## [1.1.2] - 2024-08-14
+
+### Changed
+
 - Change namespace to VacantPlanet
+
+## [1.1.1] - 2023-11-24
+
+### Fixed
+
+- Fix attribute type of DocsTestRunner::$dir
+
+## [1.1.0] - 2023-11-03
+
+### Added
+
+- Add documentation snippets test runner `docs-test-runner` 
 
 ## [1.0.2] - 2023-10-23
 
