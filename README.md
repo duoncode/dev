@@ -2,7 +2,7 @@
 
 ## Installation 
 
-    composer require fiveorbs/development
+    composer require fiveorbs/dev
 
 ## Usage
 
