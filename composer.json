@@ -1,5 +1,5 @@
 {
-    "name": "fiveorbs/development",
+    "name": "fiveorbs/dev",
     "description": "Shared development settings and tools for all FiveOrbs projects",
     "type": "library",
     "require": {
