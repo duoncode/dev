@@ -1,6 +1,6 @@
 {
-    "name": "vacantplanet/development",
-    "description": "Shared development settings and tools for all VacantPlanet projects",
+    "name": "fiveorbs/development",
+    "description": "Shared development settings and tools for all FiveOrbs projects",
     "type": "library",
     "require": {
         "friendsofphp/php-cs-fixer": "~3.62.0"
@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "VacantPlanet\\Development\\": "src/"
+            "FiveOrbs\\Development\\": "src/"
         }
     },
     "authors": [

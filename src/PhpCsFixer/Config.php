@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Development\PhpCsFixer;
+namespace FiveOrbs\Development\PhpCsFixer;
 
 class Config extends \PhpCsFixer\Config
 {
 	public function __construct()
 	{
-		parent::__construct('VacantPlanet');
+		parent::__construct('FiveOrbs');
 
 		$this->setRiskyAllowed(true);
 		$this->setIndent("\t");
