@@ -1,14 +1,14 @@
 {
-    "name": "fiveorbs/dev",
-    "description": "Shared development settings and tools for all FiveOrbs projects",
+    "name": "duon/dev",
+    "description": "Shared development settings and tools for all Duon projects",
     "type": "library",
     "require": {
-        "friendsofphp/php-cs-fixer": "~3.62.0"
+        "friendsofphp/php-cs-fixer": "~3.70.0"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "FiveOrbs\\Development\\": "src/"
+            "Duon\\Development\\": "src/"
         }
     },
     "authors": [

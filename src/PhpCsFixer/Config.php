@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace FiveOrbs\Development\PhpCsFixer;
+namespace Duon\Development\PhpCsFixer;
 
 class Config extends \PhpCsFixer\Config
 {
 	public function __construct()
 	{
-		parent::__construct('FiveOrbs');
+		parent::__construct('Duon');
 
 		$this->setRiskyAllowed(true);
 		$this->setIndent("\t");
