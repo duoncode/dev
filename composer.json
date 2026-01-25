@@ -3,7 +3,8 @@
     "description": "Shared development settings and tools for all Duon projects",
     "type": "library",
     "require": {
-        "friendsofphp/php-cs-fixer": "~3.92.0"
+        "php": "^8.5",
+        "friendsofphp/php-cs-fixer": "~3.93.0"
     },
     "license": "MIT",
     "autoload": {
