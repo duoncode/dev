@@ -33,7 +33,9 @@ Add a `.prettierrc.cjs` file with the following content:
 module.exports = require('./vendor/duon/dev/cfg/prettierrc.json');
 ```
 
-### prettier config
+### markdownlint config
+
+Installation: `npm install --global markdownlint-cli2`
 
 Add a `.markdownlint.jsonc` file with the following content: 
 
