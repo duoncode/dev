@@ -24,3 +24,21 @@ $config = new Duon\Development\PhpCsFixer\Config();
 
 return $config->setFinder($finder);
 ```
+
+### prettier config
+
+Add a `.prettierrc.cjs` file with the following content: 
+
+```js 
+module.exports = require('./vendor/duon/dev/cfg/prettierrc.json');
+```
+
+### prettier config
+
+Add a `.markdownlint.jsonc` file with the following content: 
+
+```js 
+{
+    "extends": "./vendor/duon/dev/cfg/markdownlint.jsonc",
+}
+```
