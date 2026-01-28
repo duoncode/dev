@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Duon\Development;
 
-class ConfigSync
+class Config
 {
 	private const CONFIG_MAP = [
 		'editorconfig' => [
