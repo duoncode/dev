@@ -25,7 +25,7 @@ class ConfigSync
 		],
 	];
 
-	public static function copy(array $include)
+	public static function deploy(array $include)
 	{
 		$targets = array_intersect_key(self::CONFIG_MAP, array_flip($include));
 
@@ -47,11 +47,11 @@ class ConfigSync
 
 	public static function sync()
 	{
-		self::copy(['editorconfig', 'markdownlint']);
+		self::deploy(['editorconfig', 'markdownlint']);
 	}
 
 	public static function prettier()
 	{
-		self::copy(['prettier']);
+		self::deploy(['prettier']);
 	}
 }
