@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Duon\Dev;
+namespace Duon\Development;
 
 class ConfigSync
 {
