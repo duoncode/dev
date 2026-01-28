@@ -4,7 +4,8 @@
 	"type": "library",
 	"require": {
 		"php": "^8.5",
-		"friendsofphp/php-cs-fixer": "~3.93.0"
+		"friendsofphp/php-cs-fixer": "~3.93.0",
+		"psy/psysh": "*"
 	},
 	"license": "MIT",
 	"autoload": {

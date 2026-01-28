@@ -29,6 +29,10 @@ $config = new Duon\Development\PhpCsFixer\Config();
 return $config->setFinder($finder);
 ```
 
+## Atomatically installed development tools
+
+- `psy/psysh` [A REPL for PHP](https://github.com/bobthecow/psysh)
+
 ## Shared Configuration Sync
 
 This package provides a centralized way to manage configuration files (like `.editorconfig`, `.markdownlint.json`, etc.) across all projects. Instead of manual copying, use the built-in `ConfigSync` helper via Composer.
@@ -61,7 +65,6 @@ You can use PHP named arguments to include only specific files or exclude others
 "post-install-cmd": [
 	"Duon\\Development\\ConfigSync::exclude(['prettier'])"
 ]
-
 ```
 
 #### Example: Include only specific files
