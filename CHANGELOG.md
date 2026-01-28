@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.0] - 2026-01-28
+
+### Breaking Changes
+
+- Rename `ConfigSync` to `Config` and move it to the `Duon\\Development` namespace.
+- Stop supporting config selection via Composer script arguments; use dedicated methods like `Config::sync()` and `Config::prettier()`.
+
+### Added
+
+- Add `psy/psysh` as an automatically installed development tool.
+- Enable php-cs-fixer parallel execution auto-detection.
+
+### Changed
+
+- Rename `cfg/prettierrc` to `cfg/prettierrc.json` and update sync path.
+- Make `ConfigSync` skip existing destination files (no overwrite).
+- Update README examples to match current `ConfigSync` API.
+
 ## [2.2.0] - 2026-01-28
 
 ### Added
