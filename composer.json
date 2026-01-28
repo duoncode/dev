@@ -1,23 +1,26 @@
 {
-    "name": "duon/dev",
-    "description": "Shared development settings and tools for all Duon projects",
-    "type": "library",
-    "require": {
-        "php": "^8.5",
-        "friendsofphp/php-cs-fixer": "~3.93.0"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Duon\\Development\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "ebene fünf GmbH"
-        }
-    ],
-    "bin": [
-        "bin/docs-test-runner"
-    ]
+	"name": "duon/dev",
+	"description": "Shared development settings and tools for all Duon projects",
+	"type": "library",
+	"require": {
+		"php": "^8.5",
+		"friendsofphp/php-cs-fixer": "~3.93.0"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Duon\\Development\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "ebene fünf GmbH"
+		}
+	],
+	"scripts": {
+		"mdlint": "markdownlint-cli2 --config cfg/duon.markdownlint.jsonc ./*.md"
+	},
+	"bin": [
+		"bin/docs-test-runner"
+	]
 }
