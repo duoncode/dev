@@ -53,4 +53,14 @@ class ConfigSync
 			copy($source, $dest);
 		}
 	}
+
+	public static function include(array $files)
+	{
+		self::sync(include: $files);
+	}
+
+	public static function exclude(array $files)
+	{
+		self::sync(exclude: $files);
+	}
 }
