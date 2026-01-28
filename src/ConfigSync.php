@@ -37,7 +37,7 @@ class ConfigSync
 				continue;
 			}
 
-			if (file_exists($dest) && md5_file($source) === md5_file($dest)) {
+			if (file_exists($dest)) {
 				continue;
 			}
 
