@@ -13,6 +13,7 @@ class Config extends \PhpCsFixer\Config
 		$this->setRiskyAllowed(true);
 		$this->setIndent("\t");
 		$this->setLineEnding("\n");
+		$this->setParallelConfig(\PhpCsFixer\Runner\Parallel\ParallelConfigFactory::detect());
 	}
 
 	public function getRules(): array
