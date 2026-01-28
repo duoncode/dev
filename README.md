@@ -85,3 +85,7 @@ To ensure the "Source of Truth" remains within this package, add the synced file
 /.markdownlint.jsonc
 /.prettierrc
 ```
+
+## License
+
+This project is licensed under the [MIT license](LICENSE.md).
