@@ -25,18 +25,12 @@ class ConfigSync
 		],
 	];
 
-	public static function sync(array $include = [], array $exclude = [])
+	public static function sync(array $include = ['editorconfig', 'markdownlint'])
 	{
 		$targets = self::CONFIG_MAP;
 
-		// 1. Filter by 'include' if provided
 		if (!empty($include)) {
 			$targets = array_intersect_key($targets, array_flip($include));
-		}
-
-		// 2. Filter out 'exclude' if provided
-		if (!empty($exclude)) {
-			$targets = array_diff_key($targets, array_flip($exclude));
 		}
 
 		foreach ($targets as $key => $paths) {
@@ -55,13 +49,8 @@ class ConfigSync
 		}
 	}
 
-	public static function include(array $files)
+	public static function prettier()
 	{
-		self::sync(include: $files);
-	}
-
-	public static function exclude(array $files)
-	{
-		self::sync(exclude: $files);
+		self::sync(['prettier']);
 	}
 }
