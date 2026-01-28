@@ -41,10 +41,10 @@ Add the sync command to your project's `composer.json` file. It will automatical
 {
 	"scripts": {
 		"post-install-cmd": [
-			"Duon\\Dev\\ConfigSync::sync"
+			"Duon\\Development\\ConfigSync::sync"
 		],
 		"post-update-cmd": [
-			"Duon\\Dev\\ConfigSync::sync"
+			"Duon\\Development\\ConfigSync::sync"
 		]
 	}
 }
@@ -59,7 +59,7 @@ You can use PHP named arguments to include only specific files or exclude others
 
 ```json
 "post-install-cmd": [
-	"Duon\\Dev\\ConfigSync::exclude(['prettier'])"
+	"Duon\\Development\\ConfigSync::exclude(['prettier'])"
 ]
 
 ```
@@ -68,7 +68,7 @@ You can use PHP named arguments to include only specific files or exclude others
 
 ```json
 "post-install-cmd": [
-	"Duon\\Dev\\ConfigSync::include(['editorconfig', 'markdownlint'])"
+	"Duon\\Development\\ConfigSync::include(['editorconfig', 'markdownlint'])"
 ]
 
 ```
