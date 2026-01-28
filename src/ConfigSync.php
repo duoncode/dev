@@ -19,7 +19,8 @@ class ConfigSync
 			'dest' => '.markdownlint.jsonc',
 		],
 		'prettier' => [
-			'src' => 'vendor/duon/dev/cfg/prettierrc',
+			// Must have the .json extension as we use it in ./.prettierrc.cjs
+			'src' => 'vendor/duon/dev/cfg/prettierrc.json',
 			'dest' => '.prettierrc',
 		],
 	];
