@@ -25,13 +25,9 @@ class ConfigSync
 		],
 	];
 
-	public static function sync(array $include = ['editorconfig', 'markdownlint'])
+	public static function copy(array $include)
 	{
-		$targets = self::CONFIG_MAP;
-
-		if (!empty($include)) {
-			$targets = array_intersect_key($targets, array_flip($include));
-		}
+		$targets = array_intersect_key(self::CONFIG_MAP, array_flip($include));
 
 		foreach ($targets as $key => $paths) {
 			$source = $paths['src'];
@@ -49,8 +45,13 @@ class ConfigSync
 		}
 	}
 
+	public static function sync()
+	{
+		self::copy(['editorconfig', 'markdownlint']);
+	}
+
 	public static function prettier()
 	{
-		self::sync(['prettier']);
+		self::copy(['prettier']);
 	}
 }
