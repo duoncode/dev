@@ -11,8 +11,11 @@
 	],
 	"require": {
 		"php": "^8.5",
+		"ernst/coverlyzer": "^0.2",
 		"friendsofphp/php-cs-fixer": "~3.93.0",
-		"psy/psysh": "*"
+		"phpunit/phpunit": "^12.0",
+		"psy/psysh": "*",
+		"vimeo/psalm": "6.x-dev"
 	},
 	"license": "MIT",
 	"autoload": {
