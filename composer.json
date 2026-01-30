@@ -2,6 +2,7 @@
 	"name": "duon/dev",
 	"description": "Shared development settings and tools for all Duon projects",
 	"type": "library",
+	"homepage": "https://duon.run/dev",
 	"authors": [
 		{
 			"name": "Ernst",
