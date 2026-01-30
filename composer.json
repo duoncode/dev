@@ -24,7 +24,7 @@
 		}
 	},
 	"scripts": {
-		"mdlint": "markdownlint-cli2 --config cfg/duon.markdownlint.jsonc ./*.md"
+		"mdlint": "markdownlint-cli2 ./*.md"
 	},
 	"bin": [
 		"bin/docs-test-runner"
